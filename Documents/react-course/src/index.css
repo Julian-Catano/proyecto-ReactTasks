@@ -1,0 +1,99 @@
+body{
+  background: aliceblue;
+  font-family: sans-serif;
+}
+
+.AppContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+
+.card{
+  display: grid;
+  height: 260px;
+  width: 340px;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px 20px 20px 0px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: scroll;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.card h1{
+  color: #af4eff8e;
+  font-weight: bolder;
+  border-bottom: 2px solid #8c4effbe;
+
+
+}
+
+.card p{
+  font-size: small;
+  font-weight: 100;
+}
+.card button{
+  width: 130px;
+  height: 36px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #8c4effbe;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  box-shadow:  1px 7px 7px -1px #af4eff8e;
+
+
+}
+
+
+
+.formContainer {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 380px;
+  align-items: center;
+  text-align: center;
+
+}
+.formContainer form{
+  display: grid;
+  height: 260px;
+  width: 340px;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 20px;
+  margin: 20px 20px 20px 0px;
+}
+.formContainer form input{
+  height: 30px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #af4eff8e;
+}
+.formContainer form textarea{
+  height: 30px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #af4eff8e;
+}
+.formContainer form button{
+  width: 130px;
+  height: 36px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #8c4effbe;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  box-shadow:  1px 7px 7px -1px #af4eff8e;
+}
